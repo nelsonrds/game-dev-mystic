@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="8">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <tileset firstgid="193" source="objects.tsx"/>
+ <layer id="2" name="ground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzbxsDAsG0UDxlsPwjcQIm7jIao/0bx4MT0Si+MQMyEBTPT2F5eIOZDwtugND+d7eUj0l5K4wObvduo5F98buNFs28bkr0sQMwKxGw0DmcQfyuSvQJAzAnEQnSwF9m/MkAsC8RyNLaXlHRFKZYEYiksWJrG9gIAXUd/XA==
+  </data>
+ </layer>
+ <layer id="3" name="background" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIw2oArHaANhrCMTbB8DekQ4GKswH0l5ceBSMAkKAEYiZgJiZzvbyAjEfEPPT2V5JIJYCYmk62zsSAABKgQgh
+  </data>
+ </layer>
+ <objectgroup id="6" name="objects">
+  <object id="2" name="house" gid="193" x="25.5" y="229.5" width="80" height="112"/>
+  <object id="3" name="tree" gid="194" x="21" y="86.5" width="41" height="63"/>
+  <object id="4" name="tree" gid="194" x="115.5" y="244" width="41" height="63"/>
+  <object id="5" name="Player" gid="195" x="30.5" y="252" width="32" height="32">
+   <properties>
+    <property name="controller" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" gid="194" x="17" y="246" width="41" height="63"/>
+ </objectgroup>
+ <layer id="4" name="foreground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20JT6AAAHgaCWAAAQ==
+  </data>
+ </layer>
+</map>
