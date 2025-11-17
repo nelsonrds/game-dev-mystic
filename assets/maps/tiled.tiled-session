@@ -8,15 +8,28 @@
         "."
     ],
     "fileStates": {
+        "C:/Users/nelso/Documents/mystictutorial-master/assets/maps/mainmap.tmx": {
+            "scale": 3.31015625,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 40.934623554401696,
+                "y": 229.8985130988907
+            }
+        },
+        "C:/Users/nelso/Documents/mystictutorial-master/assets/maps/objects.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/nelso/Documents/mystictutorial-master/assets/maps/tileset.tsx": {
+            "scaleInDock": 1
+        },
         "main.tmx": {
-            "expandedObjectLayers": [
-                6
-            ],
-            "scale": 8,
+            "scale": 5.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 73.5625,
-                "y": 267.25
+                "x": 42.090909090909086,
+                "y": 287.0909090909091
             }
         },
         "maingrass.tmx": {
@@ -66,11 +79,13 @@
         "tileset.tsx"
     ],
     "project": "tiled.tiled-project",
-    "property.type": "float",
+    "property.type": "bool",
     "recentFiles": [
         "tileset.tsx",
         "objects.tsx",
         "main.tmx",
+        "C:/Users/nelso/Documents/mystictutorial-master/assets/maps/mainmap.tmx",
+        "C:/Users/nelso/Documents/mystictutorial-master/assets/maps/objects.tsx",
         "maingrass.tmx",
         "object.tsx",
         "mainmap.tmx"

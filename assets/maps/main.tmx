@@ -16,7 +16,7 @@
   <object id="2" name="house" gid="193" x="25.5" y="229.5" width="80" height="112"/>
   <object id="3" name="tree" gid="194" x="21" y="86.5" width="41" height="63"/>
   <object id="4" name="tree" gid="194" x="115.5" y="244" width="41" height="63"/>
-  <object id="19" name="Player" gid="195" x="23.5455" y="304.098" width="32" height="32">
+  <object id="19" name="Player" gid="195" x="22.6364" y="306.643" width="32" height="32">
    <properties>
     <property name="controller" type="bool" value="true"/>
    </properties>

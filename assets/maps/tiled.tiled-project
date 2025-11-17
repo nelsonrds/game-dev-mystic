@@ -16,7 +16,7 @@
             "id": 1,
             "members": [
                 {
-                    "name": "AtlasAsset",
+                    "name": "atlasAsset",
                     "type": "string",
                     "value": ""
                 }
