@@ -8,7 +8,6 @@ import com.badlogic.ashley.core.ComponentMapper;
 import io.github.nelsonrs.mystic.input.Command;
 
 public class Controller implements Component {
-
     public static final ComponentMapper<Controller> MAPPER = ComponentMapper.getFor(Controller.class);
 
     private final List<Command> pressedCommands;

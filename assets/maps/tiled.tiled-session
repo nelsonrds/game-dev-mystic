@@ -12,11 +12,11 @@
             "expandedObjectLayers": [
                 6
             ],
-            "scale": 2,
+            "scale": 8,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 140.25,
-                "y": 181
+                "x": 73.5625,
+                "y": 267.25
             }
         },
         "maingrass.tmx": {
@@ -48,11 +48,11 @@
         "tileset.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
-            "scaleInEditor": 3
+            "scaleInEditor": 1
         }
     },
     "frame.defaultDuration": 200,
-    "last.imagePath": "C:/Users/nelso/Documents/Mystic/assets/maps/objects",
+    "last.imagePath": "C:/Users/nelso/Documents/mystictutorial-master/assets_raw/objects/chest",
     "map.fixedSize": false,
     "map.height": 5,
     "map.lastUsedFormat": "tmx",

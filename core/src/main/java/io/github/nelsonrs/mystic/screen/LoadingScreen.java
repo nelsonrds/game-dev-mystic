@@ -27,7 +27,6 @@ public class LoadingScreen extends ScreenAdapter {
     public void render(float delta) {
         if (this.assetService.update()) {
             Gdx.app.debug("LoadingScreen", "Finish asset loading");
-            System.out.println("Loading screen finish asset loading...");
             createScreens();
             this.game.removeScreen(this);
             this.dispose();
