@@ -13,7 +13,7 @@
   </properties>
   <image source="objects/oak_tree.png" width="41" height="63"/>
  </tile>
- <tile id="2" type="GameObject">
+ <tile id="2">
   <properties>
    <property name="animation" value="IDLE"/>
    <property name="animationSpeed" type="float" value="1"/>
