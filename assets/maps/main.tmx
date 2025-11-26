@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="22">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="29">
+ <properties>
+  <property name="music" value="TOWN"/>
+ </properties>
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="193" source="objects.tsx"/>
  <layer id="2" name="ground" width="30" height="20">
@@ -18,11 +21,13 @@
   <object id="4" name="tree" gid="194" x="115.5" y="244" width="41" height="63"/>
   <object id="19" name="Player" gid="195" x="22.6364" y="306.643" width="32" height="32">
    <properties>
+    <property name="camFollow" type="bool" value="true"/>
     <property name="controller" type="bool" value="true"/>
    </properties>
   </object>
   <object id="6" gid="194" x="17" y="246" width="41" height="63"/>
   <object id="10" gid="196" x="31.2727" y="272.364" width="16" height="16"/>
+  <object id="28" gid="199" x="144.545" y="304" width="16" height="16"/>
  </objectgroup>
  <layer id="4" name="foreground" width="30" height="20">
   <data encoding="base64" compression="zlib">

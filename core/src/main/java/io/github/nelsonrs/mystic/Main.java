@@ -20,6 +20,7 @@ import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import io.github.nelsonrs.mystic.asset.AssetService;
+import io.github.nelsonrs.mystic.audio.AudioService;
 import io.github.nelsonrs.mystic.screen.LoadingScreen;
 
 /**
@@ -37,6 +38,7 @@ public class Main extends Game {
     private GLProfiler glProfiler;
     private FPSLogger fpsLogger;
     private InputMultiplexer inputMultiplexer;
+    private AudioService audioService;
 
     private final Map<Class<? extends Screen>, Screen> screenCache = new HashMap<>();
 
@@ -54,6 +56,7 @@ public class Main extends Game {
         this.glProfiler = new GLProfiler(Gdx.graphics);
         this.glProfiler.enable();
         this.fpsLogger = new FPSLogger();
+        this.audioService = new AudioService(assetService);
 
         addScreen(new LoadingScreen(this, assetService));
         setScreen(LoadingScreen.class);
@@ -130,4 +133,7 @@ public class Main extends Game {
         }
     }
 
+    public AudioService getAudioService() {
+        return audioService;
+    }
 }

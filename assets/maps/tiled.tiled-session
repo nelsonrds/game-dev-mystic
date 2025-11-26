@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "main.tmx",
+    "activeFile": "objects.tsx",
     "expandedProjectPaths": [
         "."
     ],
@@ -28,8 +28,8 @@
             "scale": 5.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 33.909090909090914,
-                "y": 323.4545454545455
+                "x": 135.45454545454544,
+                "y": 312.3636363636364
             }
         },
         "maingrass.tmx": {
@@ -65,7 +65,7 @@
         }
     },
     "frame.defaultDuration": 200,
-    "last.imagePath": "C:/Users/nelso/Documents/mystictutorial-master/assets_raw/objects/chest",
+    "last.imagePath": "C:/Users/nelso/Documents/Mystic/assets_raw/objects/form",
     "map.fixedSize": false,
     "map.height": 5,
     "map.lastUsedFormat": "tmx",
@@ -79,11 +79,11 @@
         "tileset.tsx"
     ],
     "project": "tiled.tiled-project",
-    "property.type": "bool",
+    "property.type": "string",
     "recentFiles": [
+        "main.tmx",
         "tileset.tsx",
         "objects.tsx",
-        "main.tmx",
         "C:/Users/nelso/Documents/mystictutorial-master/assets/maps/mainmap.tmx",
         "C:/Users/nelso/Documents/mystictutorial-master/assets/maps/objects.tsx",
         "maingrass.tmx",

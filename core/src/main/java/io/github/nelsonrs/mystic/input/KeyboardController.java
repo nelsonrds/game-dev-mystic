@@ -16,7 +16,8 @@ public class KeyboardController extends InputAdapter {
         Map.entry(Keys.D, Command.RIGHT),
         Map.entry(Keys.A, Command.LEFT),
         Map.entry(Keys.SPACE, Command.SELECT),
-        Map.entry(Keys.ESCAPE, Command.CANCEL)
+        Map.entry(Keys.ESCAPE, Command.CANCEL),
+        Map.entry(Keys.NUM_1, Command.ONE)
     );
 
     private final boolean[] commandState;

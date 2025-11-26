@@ -5,6 +5,7 @@ import com.badlogic.gdx.ScreenAdapter;
 import io.github.nelsonrs.mystic.Main;
 import io.github.nelsonrs.mystic.asset.AssetService;
 import io.github.nelsonrs.mystic.asset.AtlasAsset;
+import io.github.nelsonrs.mystic.asset.SoundAsset;
 
 public class LoadingScreen extends ScreenAdapter {
 
@@ -20,6 +21,9 @@ public class LoadingScreen extends ScreenAdapter {
     public void show() {
         for (AtlasAsset atlas : AtlasAsset.values()) {
             assetService.queue(atlas);
+        }
+        for (SoundAsset sound : SoundAsset.values()) {
+            assetService.queue(sound);
         }
     }
 

@@ -23,6 +23,7 @@ import io.github.nelsonrs.mystic.asset.AssetService;
 import io.github.nelsonrs.mystic.asset.AtlasAsset;
 import io.github.nelsonrs.mystic.component.Animation2D;
 import io.github.nelsonrs.mystic.component.Animation2D.AnimationType;
+import io.github.nelsonrs.mystic.component.CameraFollow;
 import io.github.nelsonrs.mystic.component.Controller;
 import io.github.nelsonrs.mystic.component.Facing;
 import io.github.nelsonrs.mystic.component.Facing.FacingDirection;
@@ -90,11 +91,22 @@ public class TiledAshleyConfigurator {
         addEntityController(tileMapObject, entity);
         addEntityMove(tile, entity);
         addEntityAnimation(tile, entity);
+        addEntityCameraFollow(tileMapObject, entity);
         entity.add(new Facing(FacingDirection.DOWN));
         entity.add(new Fsm(entity));
 
         this.engine.addEntity(entity);
     }
+
+    private void addEntityCameraFollow(TiledMapTileMapObject tileMapObject, Entity entity) {
+        Boolean camFollow = tileMapObject.getProperties().get("camFollow", false, Boolean.class);
+        if (!camFollow) {
+            return;
+        }
+
+        entity.add(new CameraFollow());
+    }
+
 
     private BodyType getObjectBodyType(TiledMapTile tile) {
         String classType = tile.getProperties().get("type", "", String.class);
